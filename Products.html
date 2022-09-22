@@ -4,13 +4,14 @@
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1272920916917904"
      crossorigin="anonymous"></script>
-	<script src="https://kit.fontawesome.com/61003df5a9.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/61003df5a9.js" crossorigin="anonymous"></script>
 <style type="text/css">
 
 
 
   nav{
   width: 100%;
+  min-height: 10%;
   overflow: auto;
   background: black;
   margin: 0;
@@ -41,45 +42,15 @@
 
 
 
-
-.social-links{
-  display: flex;
- }
-
- .social-links ul{
-  padding: 20px;
-  display: flex;
-  width: 300px;
-  height: 30px;
-  margin: 20px;//
- }
-
- .social-items{
-  list-style: none;
-  align-items: center;
-  margin-left: 185px;
- }
-
- .social-items a{
-  padding: 10px 20px;
-  font-size: 35px;
-  color: #FFFFFF;
-  transition: all .25s;
- }
-
- .social-items a:hover{
-  color: #5db3ad;
- }
-
  .quick-links{
-  display: flex;
+  display: block;
   width: 100%;//
   height: 70px;
   margin: 10px;
  }
 
  .quick-links ul{
-  display: flex;
+  display: block;
  }
 
  .quick-items {
@@ -94,7 +65,7 @@
   color: white;
   transition: all .25s;
   margin: 10px;
-  display: flex;
+  display: block;
  }
 
  .quick-items a:hover{
@@ -117,154 +88,155 @@
 
 
 
-	:root {
-		---black:  #000000;
-		---peach: #FBC686;
-		---background: #FDF6EB;
-	}
-	* {
-		box-sizing: border-box;
-	}
-	body{
-		padding: 0;
-		margin: 0;
-		padding:  80px 50px;
-		background: var(---bg);
-	}
-	.section-profile {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 50px;
-	}
+  :root {
+    ---black:  #000000;
+    ---peach: #FBC686;
+    ---red: #ff0000;
+    ---background: #FDF6EB;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+    padding:  80px 50px;
+    background: var(---bg);
+  }
+  .section-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
 
-	.profile-header-title p{
-		font-family: 'Playfair Display', serif;
-		font-size: 27px;
-		margin: 0;
-		color: var(---black);
-	}
+  .profile-header-title p{
+    font-family: 'Playfair Display', serif;
+    font-size: 27px;
+    margin: 0;
+    color: var(---black);
+  }
 
-	.profile-header-title p:nth-child(:) {
-		margin-bottom: 5px;
-	}
+  .profile-header-title p:nth-child(:) {
+    margin-bottom: 5px;
+  }
 
 .ig-handle {
-	color: white;
-	background: var(---black);
-	display: inline-flex;
-	padding: 5px 7px;
-	border-radius: 5px;
-	font-family: 'Lato', sans-serif;
-	font-size: 14px;
+  color: white;
+  background: var(---red);
+  display: inline-flex;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
 }
 
 
 
-	}
-	.section-links {
-		padding: 20px;
+  }
+  .section-links {
+    padding: 20px;
 
 
-	}
-	.link {
-		background: var(---black);
-		color: white;
-		font-family: 'Lato', sans-serif;
-		width: 100%;
-		border-radius: 5px;
-		padding: 20px;
-		margin: 15px 0;
-		position: relative;
-	}
+  }
+  .link {
+    background: var(---black);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px 0;
+    position: relative;
+  }
 
-	.link a:hover {
-		background: var(---peach);
-	}
-	.link-title {
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		font-weight: 700;
-		font-size: 14px;
-		margin: 0;
-		margin-bottom: 10px;
-	}
-	.link-title + p {
-		margin: 0;
-		margin-top: 10px;
-	}
+  .link a:hover {
+    background: var(---peach);
+  }
+  .link-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .link-title + p {
+    margin: 0;
+    margin-top: 10px;
+  }
 
-	.new-link:after {
-		position: absolute;
-		content: "NEW";
-		background: var(---peach);
-		color: white;
-		width: 45px;
-		height: 45px;
-		border-radius: 50%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-size: 12px;
-		font-weight: 700;
-		letter-spacing: 1px;
-		top: -15px;
-		right: -15px;
-	}
-	.section-social {
-		padding: 0 20px;
-	}
+  .new-link:after {
+    position: absolute;
+    content: "";
+    background: var(---red);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    top: -15px;
+    right: -15px;
+  }
+  .section-social {
+    padding: 0 20px;
+  }
 
-	.link-description {
-		margin: 0;
-		margin-top: 10px;
-	}
+  .link-description {
+    margin: 0;
+    margin-top: 10px;
+  }
 
-	.social-title {
-		color: var(---black);
-		font-family: 'Lato', sans-serif;
-		text-transform: uppercase;
-		font-size: 15px;
-		font-weight: 700;
-	}
-	.social-media-icons i:nth-child(1) {
-		margin-left: 0;
-	}
+  .social-title {
+    color: var(---black);
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .social-media-icons i:nth-child(1) {
+    margin-left: 0;
+  }
 
-	.social-media-icons i {
-		margin:  0 10px;
-		font-size: 20px;
-		color: var(---black);
-	}
-	@media (min-width: 900px) {
-		body {
-			display: flex;
-			flex-direction: column;
-			align align-items: center;}
-		}
+  .social-media-icons i {
+    margin:  0 10px;
+    font-size: 20px;
+    color: var(---black);
+  }
+  @media (min-width: 900px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      align align-items: center;}
+    }
 
-	.link a {
-		color: white;
-		text-decoration: none;
-		background: red;
-		width: 100%;
-		display: inline-flex;
-		flex-direction: column;
-		padding: 20px;
-		border-radius: 5px;
-		background: var(---black);
-	}
+  .link a {
+    color: white;
+    text-decoration: none;
+    background: red;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    background: var(---black);
+  }
 
-	.section-social {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+  .section-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 
 
-	 .contact
+   .contact
  {
   position: relative;
   min-height: 100vh;
@@ -421,6 +393,7 @@
    footer{
   margin: 0;
   padding: 0;
+  padding-bottom: 5px;
   background-color: #000000;
   text-align: center;
   color: white;
@@ -428,9 +401,9 @@
 
 
 </style>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products</title>
 </head>
 <body>
 
@@ -448,81 +421,86 @@
 </script>
 
 
-  
+
  <div class="logo">
-        <a href="#"><img src="C:\Users\kent\Desktop\project.html\Images\logo.jpg.png" width="100" height="100"></a>
+        <a href="#"><img src="images/brand.logo.png" width="100" height="100"></a>
     </div>
 
 
       <nav>
-            <div class="social-links">
-      <ul>
-        <li class="social-items"><a href="https://web.facebook.com/Scripture-107518938745424"><i class="fa-brands fa-facebook"></i></a></li>
-        <li class="social-items"><a href="https://wa.me/message/T2FFZ55W3XSHN1"><i class="fa-brands fa-square-whatsapp"></i></a></li>
-        <li class="social-items"><a href="https://www.youtube.com/channel/UCDqzpchH-NCJPN1OyeExBPA"><i class="fa-brands fa-square-youtube"></i></a></li>
-      </ul>
   </div>
         <ul>
           <li><a href="Home.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="About.html">About</a></li>
         </ul>
       </nav>
 
+<div class="section-social">
+  <p class="social-title">
+  <div class="social-media-icons">
+    <i class="fa-brands fa-facebook"><a href="https://web.facebook.com/Scripture-107518938745424"></i></i></a>
+    <i class="fa-brands fa-square-youtube"><a href="https://www.youtube.com/channel/UCDqzpchH-NCJPN1OyeExBPA"></i></i></a>
+  </div>
+</div>
 
 
 
-	<div class="section-profile">
-		<div class="profile-header">
-			<div class="profile-header-title">
-				<p>Please!</p>
-			</div>
-			<div class="profile-header-ig">
-				<p class="ig-handle">
+  <div class="section-profile">
+    <div class="profile-header">
+      <div class="profile-header-title">
+        <p>Hello, dear!</p>
+      </div>
+      <div class="profile-header-ig">
+        <p class="ig-handle">
   <a href="https://play.google.com/store/apps/details?id=io.kodular.eltonntando.QonnectQRScanner&gl=ZA" style="text-decoration: none; color: white; font-weight: bolder;">CLICK TO DOWNLOAD OUR QR CODE SCANNING & GENERATOR APP FROM GOOGLEPLAY STORE!</a>
 </p>
-			</div>
-	</div>
+      </div>
+  </div>
 </div>
 
 <div class="selection-links">
-	<div class="link new-link">
-	
-	<p class="link-title">
-    <h1>Products</h1>
-    <p>Check Out Our Awesome Merchendise!</p>
+  <div class="link new-link">
+  <p class="link-title">
+
+<h2>Our Products</h2> 
+<p>Check out our awesome merchendise...</p>
+ 
+</P>
+
+
+
+
   </p>
-	<p class="link-descreption</p>
+  <p class="link-descreption"></p>
 </div>
 </div>
-	<div class="link">
-	<a href="">
-	<p class="link-title">Products</p>
-	<p class="link-descreption">Check Out Our Awesome Products</p>
+  <div class="link">
+  <a href="">
+  <p class="link-title">Products</p>
+  <p class="link-descreption">Check Out Our Awesome Products</p>
 </a>
 </div>
-	<div class="link">
-	<a href="">
-	<p class="link-title">Download Our QR Code Scanner & QR Code Generator App from Google Playstore</p>
-	<p class="link-descreption">QR Code Qonnect</p>
+  <div class="link">
+  <a href="">
+  <p class="link-title">Download Our QR Code Scanner & QR Code Generator App from Google Playstore</p>
+  <p class="link-descreption">QR Code Qonnect</p>
 </a>
 </div>
 </div>
 </div>
+
 
 
 
 
 
 <div class="section-social">
-	<p class="social-title">Other social media</p>
-	<div class="social-media-icons">
-		<i class="fab fa-twitter"></i>
-		<i class="fa-brands fa-facebook"></i>
-		<i class="fa-brands fa-square-youtube"></i>
-	</div>
-</div>	
+  <p class="social-title">Other social media</p>
+  <div class="social-media-icons">
+    <i class="fa-brands fa-facebook"><a href="https://web.facebook.com/Scripture-107518938745424"></i></i></a>
+    <i class="fa-brands fa-square-youtube"><a href="https://www.youtube.com/channel/UCDqzpchH-NCJPN1OyeExBPA"></i></i></a>
+  </div>
+</div>  
 
 <footer>
 <div class="outer-footer">
