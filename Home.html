@@ -11,6 +11,7 @@
 
   nav{
   width: 100%;
+  min-height: 10%;
   overflow: auto;
   background: black;
   margin: 0;
@@ -41,45 +42,15 @@
 
 
 
-
-.social-links{
-  display: flex;
- }
-
- .social-links ul{
-  padding: 20px;
-  display: flex;
-  width: 300px;
-  height: 30px;
-  margin: 20px;//
- }
-
- .social-items{
-  list-style: none;
-  align-items: center;
-  margin-left: 185px;
- }
-
- .social-items a{
-  padding: 10px 20px;
-  font-size: 35px;
-  color: #FFFFFF;
-  transition: all .25s;
- }
-
- .social-items a:hover{
-  color: #5db3ad;
- }
-
  .quick-links{
-  display: flex;
+  display: block;
   width: 100%;//
   height: 70px;
   margin: 10px;
  }
 
  .quick-links ul{
-  display: flex;
+  display: block;
  }
 
  .quick-items {
@@ -94,7 +65,7 @@
   color: white;
   transition: all .25s;
   margin: 10px;
-  display: flex;
+  display: block;
  }
 
  .quick-items a:hover{
@@ -120,6 +91,7 @@
   :root {
     ---black:  #000000;
     ---peach: #FBC686;
+    ---red: #ff0000;
     ---background: #FDF6EB;
   }
   * {
@@ -152,7 +124,7 @@
 
 .ig-handle {
   color: white;
-  background: var(---black);
+  background: var(---red);
   display: inline-flex;
   padding: 5px 7px;
   border-radius: 5px;
@@ -197,8 +169,8 @@
 
   .new-link:after {
     position: absolute;
-    content: "NEW";
-    background: var(---peach);
+    content: "";
+    background: var(---red);
     color: white;
     width: 45px;
     height: 45px;
@@ -421,6 +393,7 @@
    footer{
   margin: 0;
   padding: 0;
+  padding-bottom: 5px;
   background-color: #000000;
   text-align: center;
   color: white;
@@ -430,10 +403,9 @@
 </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scriptured</title>
+  <title>Home</title>
 </head>
 <body>
-
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1272920916917904"
      crossorigin="anonymous"></script>
@@ -450,28 +422,26 @@
 
 
 
-  
  <div class="logo">
-        <a href="#"><img src="C:\Users\kent\Desktop\project.html\Images\logo.jpg.png" width="100" height="100"></a>
+        <a href="#"><img src="images/brand.logo.png" width="100" height="100"></a>
     </div>
 
 
       <nav>
-            <div class="social-links">
-      <ul>
-        <li class="social-items"><a href="https://web.facebook.com/Scripture-107518938745424"><i class="fa-brands fa-facebook"></i></a></li>
-        <li class="social-items"><a href="https://wa.me/message/T2FFZ55W3XSHN1"><i class="fa-brands fa-square-whatsapp"></i></a></li>
-        <li class="social-items"><a href="https://www.youtube.com/channel/UCDqzpchH-NCJPN1OyeExBPA"><i class="fa-brands fa-square-youtube"></i></a></li>
-      </ul>
   </div>
         <ul>
           <li><a href="Home.html">Home</a></li>
           <li><a href="About.html">About</a></li>
-          <li><a href="Products.html">Products</a></li>
-          <li><a href="Contact.html">Contact</a></li>
         </ul>
       </nav>
 
+<div class="section-social">
+  <p class="social-title">
+  <div class="social-media-icons">
+    <i class="fa-brands fa-facebook"><a href="https://web.facebook.com/Scripture-107518938745424"></i></i></a>
+    <i class="fa-brands fa-square-youtube"><a href="https://www.youtube.com/channel/UCDqzpchH-NCJPN1OyeExBPA"></i></i></a>
+  </div>
+</div>
 
 
 
@@ -566,8 +536,8 @@ We all have days where our hearts need to be encouraged and our spirits lifted. 
 "For the Lord God is a sun and shield; the Lord bestows favour and honor; no good thing does he withhold from those whose walk is blameless." Psalm 84:11 
 </P>
 
-<h2>Bible Verses On God’s provision</h2>
-<p>
+<h2 style="text-align: center;">Bible Verses On God’s provision</h2>
+<p style="text-align: center;">
 And my God will meet all your needs according to the riches of his glory in Christ Jesus. Philippians 4: 19
 <br><br>
 The blessing of the Lord brings wealth, without painful toil for it. Proverbs 10:22
@@ -577,8 +547,8 @@ And God is able to bless you abundantly, so that in all things at all times, hav
 “But blessed is the one who trusts in the Lord, whose confidence is in him. They will be like a tree planted by the water that sends out its roots by the stream. It does not fear when heat comes; its leaves are always green It has no worries in a year of drought and never fails to bear fruit.” Jeremiah 17: 7-8
 </p>
 
-<h2>Verses On Giving</h2>
-<p>
+<h2 style="text-align: center;">Verses On Giving</h2>
+<p style="text-align: center;">
 “Give, and it will be given to you. A good measure, pressed down, shaken together and running over, will be poured into your lap. For with the measure you use, it will be measured to you.” Luke 6:38
 <br><br>
 Honour the Lord with your wealth, with the first fruits of all your crops; then your barns will be filled to overflowing, and your vats will brim over with new wine. Proverbs 3:9-10
@@ -590,8 +560,8 @@ Each of you must bring a gift in proportion to the way the Lord your God has ble
 As Jesus looked up, he saw the rich putting their gifts into the temple treasury. He also saw a poor widow put in two very small copper coins. “Truly I tell you,” he said, “this poor widow has put in more than all the others. All these people gave their gifts out of their wealth; but she out of her poverty put in all she had to live on.” Luke 21: 1-4
 </p>
 
-<h2>Verses On Financial Responsibility</h2>
-<p>
+<h2 style="text-align: center;">Verses On Financial Responsibility</h2>
+<p style="text-align: center;">
 Anyone who does not provide for their relatives, and especially for their own household, has denied the faith and is worse than an unbeliever. 1 Timothy 5:8
 <br><br>
 So if you have not been trustworthy in handling worldly wealth, who will trust you with true riches? Luke 16: 11
@@ -601,8 +571,8 @@ A good person leaves an inheritance for their children’s children, but a sinne
 The wise store up choice food and olive oil, but fools gulp theirs down. Proverbs 21: 20
 </p>
 
-<h2>Verses On Greed</h2>
-<p>
+<h2 style="text-align: center;">Verses On Greed</h2>
+<p style="text-align: center;">
 For the love of money is a root of all kinds of evil. Some people, eager for money, have wandered from the faith and pierced themselves with many griefs. But you, man of God, flee from all this, and pursue righteousness, godliness, faith, love, endurance and gentleness. 1 Timothy 6: 10-11
 <br><br>
 Keep your lives free from the love of money and be content with what you have, because God has said, “Never will I leave you; never will I forsake you.” Hebrews 13: 5
@@ -744,6 +714,21 @@ Love is the last thing we feel when we are discouraged. Loving others and loving
 </P>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </p>
   <p class="link-descreption"></p>
 </div>
 </div>
@@ -823,13 +808,11 @@ Love is the last thing we feel when we are discouraged. Loving others and loving
 
 
 
-
 <div class="section-social">
   <p class="social-title">Other social media</p>
   <div class="social-media-icons">
-    <i class="fab fa-twitter"></i>
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-square-youtube"></i>
+    <i class="fa-brands fa-facebook"><a href="https://web.facebook.com/Scripture-107518938745424"></i></i></a>
+    <i class="fa-brands fa-square-youtube"><a href="https://www.youtube.com/channel/UCDqzpchH-NCJPN1OyeExBPA"></i></i></a>
   </div>
 </div>  
 
