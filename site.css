@@ -35,8 +35,8 @@
         --bntTxtColor:#fff;
         --bntHoverTxtColor:#000;
         --fs-header:1.5rem;
-        --fw-header:700;
-        --fw-header-nav:500;
+        --fw-header:100;
+        --fw-header-nav:100;
         --fs-hero-content-header:3.5rem;
         --fw-hero-content-header:100;
         --fs-hero-content-body:1rem;
@@ -124,7 +124,7 @@ img{
 }
 .header-nav ul li a{
     text-decoration: none;
-    font-size: var(--fs-header);
+    font-size: 20px;
     color: var(--mainTxtColor);
     font-weight: var(--fw-header-nav);
 }
@@ -171,6 +171,11 @@ h3{
     margin: 5px;
 }
 
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+}
+
 .contents
 {
 
@@ -202,6 +207,7 @@ h3{
     animation: hero-btn 2s ease forwards ;
 }
 .content-btn button{
+    margin: 10px;
     padding: 10px 20px;
     font-size: var(--fs-hero-content-bnt);
     font-weight: var(--fw-hero-content-bnt);
@@ -258,7 +264,7 @@ h3{
     :root{
     /* fonts  */
     --fs-header:1.5rem;
-    --fw-header:700;
+    --fw-header:500;
     --fw-header-nav:500;
     --fs-hero-content-header:2.5rem;
     --fw-hero-content-header:700;
