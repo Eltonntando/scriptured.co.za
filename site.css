@@ -208,7 +208,7 @@ h1{
 }
 .content-btn button{
     margin: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: var(--fs-hero-content-bnt);
     font-weight: var(--fw-hero-content-bnt);
     color: var(--mainTxtColor);
