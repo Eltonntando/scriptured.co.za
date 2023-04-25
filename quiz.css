@@ -11,7 +11,7 @@ body{
     background: white;
 }
 ::selection{
-    color: white;
+    color: none;
     background: black;
 }
 .start_btn,
@@ -22,8 +22,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
@@ -40,7 +39,7 @@ body{
     padding: 15px 30px;
     outline: none;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background: black;
     cursor: pointer;
 }
@@ -253,7 +252,7 @@ footer button{
     border: none;
     outline: none;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #007bff;
     border: 1px solid #007bff;
     line-height: 10px;
@@ -316,7 +315,7 @@ footer button.show{
     cursor: pointer;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
@@ -334,4 +333,29 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+ 
+ a{
+  text-decoration: none;
+  padding: 5px 30px;
+  font-size: 20px;
+  color: white;
+  transition: all .25s;
+  background-color: #007bff;
+  border-radius: 17px;
 }
