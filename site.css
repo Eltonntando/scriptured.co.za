@@ -55,7 +55,7 @@ body{
     width: 100%;
     font-family: var(--mainFont);
     padding:  40px 20px;
-     background-image: url(C:/Users/kent/Desktop/Bluetooth%20files/BIBLE.png);
+     background-image: url(images/BIBLE.png);
     background-size: cover;
     background-attachment: fixed;
 }
