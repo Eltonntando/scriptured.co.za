@@ -8,7 +8,7 @@
 
     /* fonts  */
     --mainFont:"poppins";
-    --secondaryFont:"Permanent Marker";
+    --secondaryFont:"Permanent Marker"; 
     --mainTxtColor:#000;
     --bntTxtColor:#000;
     --bntHoverTxtColor:#fff;
@@ -55,7 +55,7 @@ body{
     width: 100%;
     font-family: var(--mainFont);
     padding:  40px 20px;
-     background-image: url(images/BIBLE.png);
+     background-image: url(C:/Users/kent/Desktop/Bluetooth%20files/BIBLE.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -149,6 +149,7 @@ img{
     cursor: pointer;
     animation: header-nav 1s ease forwards;
     margin-left: 30px;
+    color: transparent;
 }
 .mobile-nav-bar{
     display: none;
