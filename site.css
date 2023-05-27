@@ -55,8 +55,7 @@ body{
     width: 100%;
     font-family: var(--mainFont);
     padding:  40px 20px;
-     background-image: url(images
-/BIBLE.png);
+     background-image: url(images/BIBLE.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
