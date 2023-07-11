@@ -9,6 +9,7 @@
 }
 body{
     background: white;
+    background-image: linear-gradient(to right,#FED9B7,#0081A7);
 }
 ::selection{
     color: none;
