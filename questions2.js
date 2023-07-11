@@ -13,13 +13,13 @@ let questions = [
   },
      {
         numb: 2,
-    question: "What is Mathew telling us?",
+    question: "What is the book of Mathew telling us?",
     answer: "This is an account of Jesus’s life, death, and resurrection, focusing on Jesus’ role as the true king of the Jews.",
     options: [
       "This is an account of God's plan focusing on Jesus’s role as the true king of the Jews",
       "This is an account of the Church focusing on Jesus’s role as the true king of the Jews",
       "This is an account of Mathew’s life following Jesus’s the true king of the Jews",
-      "This is an account of Jesus’ life, death, and resurrection, focusing on Jesus’ role as the true king of the Jews."
+      "This is an account of Jesus’s life, death, and resurrection, focusing on Jesus’ role as the true king of the Jews."
     ]
   },
     {
@@ -148,7 +148,7 @@ let questions = [
     question: "What is the book of 1 Corinthians talking about?",
     answer: "Poul writes a disciplinary letter to a fractured church in Corinth, and answers questions they’ve had about Christianity.",
     options: [
-      "Paul writes a disciplinary letter to a fractured church in Corinth, and answers some questions that they’ve had about Christians should behave.",
+      "Poul writes a disciplinary letter to a fractured church in Corinth, and answers questions they’ve had about Christianity.",
       "Paul summarizes bible in a letter to the churches at Corinth, where he plans to visit.",
       "Paul talks about how Jesus was living in a letter to the churches at Corinth, where he plans to visit.",
       "Paul summarizes how the gospel of Jesus works in a letter to the churches at Corinth, where he plans to visit."
@@ -215,7 +215,7 @@ let questions = [
     answer: "Paul writes to the church at Ephesus about how to walk in grace, peace, and love.",
     options: [
       "Paul writes a disciplinary letter to a church in Ephesus, and answers questions they’ve had about Christianity.",
-      "Paul writes to the church in Ephesus about how to walk in grace, peace, and love.",
+      "Paul writes to the church at Ephesus about how to walk in grace, peace, and love.",
       "Paul hears the Ephesus churches have been lead to think salvation is from the law of Moses.",
       "Paul writes to the church in Ephesus about how angry God is towards them."
     ]
@@ -546,7 +546,7 @@ let questions = [
     options: [
       "A second very brief letter about walking in lies, hate, and disobedience.",
       "A second very long letter about walking in lies, hate, and disobedience.",
-      "A second very brief letter about walking in truth, love, and obedience.",
+      "A very brief letter about walking in truth, love, and obedience.",
       "An even shorter letter about Christian fellowship."
     ]
   },
