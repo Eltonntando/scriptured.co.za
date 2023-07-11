@@ -80,12 +80,12 @@ let questions = [
     {
         numb: 8,
     question: "Exodus is about?",
-    answer: "The rescuing of Israelites from Egyptian slavery servitude",
+    answer: "The rescuing of Israelites from Egypt",
     options: [
-      "The book tells tales of how the Israelites found themselves in Egyptian grounds",
+      "About the Israelites life in Egypt",
       "The whole book is about the Egyptians",
-      "The resurrection of Christ",
-      "The rescuing of Israelites from Egyptian slavery servitude"
+      "The resurrection of Moses",
+      "The rescuing of Israelites from Egypt"
     ]
   },
     {
@@ -134,18 +134,18 @@ let questions = [
   },
     {
         numb: 13,
-    question: "What is the book Leviticus about?",
-    answer: "God gives Israelites instructions and guide for how to worship and praise Him",
+    question: "What is the book of Leviticus about?",
+    answer: "God gives Israelites instructions on worshiping him",
     options: [
-      "God gives Israelites instruments and tells them to sing and praise Him",
-      "God gives Israelites instructions and guide for how to worship and praise Him",
-      "God guides the Israelites at the desert by pillar of fire at night and of a cloud in the day",
-      "God give the Israelites manna from heaven as they were hungry in the desert"
+      "God gives Israelites instruments to praise him",
+      "God gives Israelites instructions on worshiping him",
+      "God guides the Israelites through the desert",
+      "God gives the Israelites manna"
     ]
   },
     {
         numb: 14,
-    question: "What is the book after Leviticus?",
+    question: "Which book is next after Leviticus?",
     answer: "Numbers",
     options: [
       "Deuteronomy",
@@ -157,12 +157,12 @@ let questions = [
     {
         numb: 15,
     question: "What is the book of Numbers about?",
-    answer: "Israel is failing to trust and obey God, and wanders in the wilderness for a period of 40 years",
+    answer: "Israel is fails to obey God, & wanders for 40 years",
     options: [
-      "God gives Israelites instructions and guide for how to worship and praise Him",
-      "Israel is trusting and obeying God, and wanders in the wilderness for a period of 40 years",
-      "Israel is failing to trust and obey God, and wanders in the wilderness for a period of 40 years",
-      "Israel is trusting and obeying God, and is on the right path to Cannan for a period of 40 years"
+      "God gives Israelites instructions to praise him",
+      "Israel is obeying God for a period of 40 years",
+      "Israel is fails to obey God, & wanders for 40 years",
+      "Israel is trusting God, and on the right path"
     ]
   },
     {
@@ -179,12 +179,12 @@ let questions = [
     {
         numb: 17,
     question: "What happens in the book of Deuteronomy?",
-    answer: "Moses gives Israel instructions and guide to love and obey God in the Promised Land",
+    answer: "Moses gives Israel instructions to obey God in the Promised Land",
     options: [
-      "Moses gives Israel instructions and guide to love and obey God in the Promised Land",
-      "God is angry at the Israelites for not obeying him",
-      "Israel is failing to trust moses, and are not listening to anything he says",
-      "The book of Deuteronomy is about the birth of Jesus"
+      "Moses gives Israel instructions to obey God in the Promised Land",
+      "God is angry at the Israelites for disobeying him",
+      "Israel is failing to trust moses",
+      "Deuteronomy is about the birth of Joshua"
     ]
   },
     {
@@ -203,8 +203,8 @@ let questions = [
     question: "What is the book of Joshua about?",
     answer: "Joshua becomes Israel’s new leader and leads Israel to conquer the Promised land.",
     options: [
-      "Joshua runs away from the Israelites camps to avoid dying at war against Cannan inhabitants.",
-      "The story of Israelites in the desert after leaving Mount Sinai as they reached the eastern boundary of Canaan",
+      "Joshua runs away from the Israelites camps.",
+      "Israelites in the desert after leaving Mount Sinai as they reached the eastern boundary of Canaan",
       "The book of Joshua is about the story of David to be King over Israel",
       "Joshua becomes Israel’s new leader and leads Israel to conquer the Promised land."
     ]
@@ -256,7 +256,7 @@ let questions = [
     {
         numb: 24,
     question: "Name the next book after the book of Ruth?",
-    answer: "Two widows lose everything, and find hope in Israel—which leads to the birth of the future King David",
+    answer: "1 Samuel",
     options: [
       "Ezra",
       "1 Chronicles",
@@ -278,7 +278,7 @@ let questions = [
     {
         numb: 26,
     question: "The book of 1 Samuel is followed by which book?",
-    answer: "Israel demands a king, who turns out to be quite a disappointment.",
+    answer: "2 Samuel",
     options: [
       "Ezra",
       "1 Chronicles",
@@ -313,7 +313,7 @@ let questions = [
     question: "The book of 1 Kings is about?",
     answer: "Israel has peace and prosperity under King Solomon, but splits after, and the two kings turn from God.",
     options: [
-      "Israel has peace and prosperity under King David, and remains faithful.",
+      "Israel has peace and prosperity under King Solomon, and remains faithful.",
       "Israel has peace and prosperity under King David, and remains faithful.",
       "Israel is at war under King Solomon, and decides to splits into two kingdoms.",
       "Israel has peace and prosperity under King Solomon, but splits after, and the two kings turn from God."
@@ -322,7 +322,7 @@ let questions = [
     {
         numb: 30,
     question: "The book of 1 Kings is followed by which book?",
-    answer: "2 Kings.",
+    answer: "2 Kings",
     options: [
       "Ezra",
       "1 Chronicles",
@@ -377,7 +377,7 @@ let questions = [
     {
         numb: 35,
     question: "What is happening in 2 Chronicles?",
-    answer: "Solomon builds the temple, but after rejecting God, Babylonians destroy the temple.",
+    answer: "Solomon builds the temple, but after centuries rejecting God, Babylonians destroy the temple.",
     options: [
       "David builds the temple, but after centuries rejecting God, Babylonians destroy the temple.",
       "Solomon builds the temple, but after centuries rejecting God, Tesalonians destroy the temple.",
@@ -432,7 +432,7 @@ let questions = [
     {
         numb: 40,
     question: "What is the name of the book after Nehemiah?",
-    answer: "Nehemiah",
+    answer: "Esther",
     options: [
       "2 Nehemiah",
       "Job",
@@ -476,7 +476,7 @@ let questions = [
     {
         numb: 44,
     question: "After Job, we have the book of?",
-    answer: "Job",
+    answer: "Psalms",
     options: [
       "Psalms",
       "Song of Songs",
@@ -577,7 +577,7 @@ let questions = [
     question: "What happens in the book of Isaiah?",
     answer: "God sends Isaiah to warn Israel, but also to tells of a coming king who will “bear the sins of many.",
     options: [
-      "Jesus tells Isaiah to calm dow and be less weary, but also to tells of a coming justice that will punish siners.",
+      "Jesus tells Isaiah to calm down and be less weary, but also to tells of a coming justice that will punish siners.",
       "God tells Isaiah to escape Israel, and tells him of coming times of hardship in Israel.",
       "God sends Isaiah to rule Israel as king, but the people regected him.",
       "God sends Isaiah to warn Israel, but also to tells of a coming king who will “bear the sins of many."
@@ -667,7 +667,7 @@ let questions = [
     options: [
       "God chooses a  group of man to speak for Him to Israel, to tell them the error of their ways and teach justice.",
       "God chooses a man to speak for Him to Israel, to tell them the error of their ways and teach justice.",
-      "God chooses a man to train and fight for Israel in the battle against the Babylonians.",
+      "Daniel becomes a high-ranking wise man in the Babylonian and Persian empires, & has prophetic visions of Israel’s future.",
       "God chooses a womam to speak for Him to Israel, to tell them the error of their ways and teach justice."
     ]
   },
@@ -839,10 +839,10 @@ let questions = [
     {
         numb: 77,
     question: "What is happening in the book of Habakkuk?",
-    answer: ".Habakkuk pleads God stops the injustice and violence in Judah, surprised to find God will use violent Babylonians to do so.",
+    answer: "Habakkuk pleads God stops the injustice and violence in Judah, surprised to find God will use violent Babylonians to do so.",
     options: [
       "Habakkuk pleads God to continue the injustice and violence in Judah, and use the violent Babylonians to do so",
-      "Habakkuk pleads God stops the injustice and violence in Judah, surprised to find God will use violent Babylonians to do so",
+      "Habakkuk pleads God stops the injustice and violence in Judah, surprised to find God will use violent Babylonians to do so.",
       "Habakkuk foretells of God’s love for Judah.",
       "Habakkuk becomes king of Judah, and stops God from using violent Babylonians to destry it"
     ]
@@ -861,7 +861,7 @@ let questions = [
     {
         numb: 79,
     question: "What happens in the book of Zephaniah?",
-    answer: "A disobedient prophet runs from God, is swallowed by a great fish, then preaches God’s message to Nineveh.",
+    answer: "God warns that he will judge Israel and the surrounding nations, but also that he will restore them in peace and justice.",
     options: [
       "God says he will bless Israel and the surrounding nations, he will restore them with peace and justice.",
       "God warns that he will destroy Israel and the surrounding nations.",
@@ -888,7 +888,7 @@ let questions = [
       "The people rejoice while working to restore God’s temple in Jerusalem.",
       "God warns that he will destroy Jerusalem and the surrounding nations.",
       "The people have abandoned the work of restoring God’s temple in Jerusalem, and so Haggai takes them to task",
-      "The people have abandoned the work of restoring God’s temple in Judah, and so Haggai takes them to task"
+      "The people have abandoned the work of restoring God’s temple in Jerusalem, and so Haggai takes them to task."
     ]
   },
     {
