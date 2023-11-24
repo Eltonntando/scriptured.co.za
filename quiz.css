@@ -357,6 +357,6 @@ ul {
   font-size: 20px;
   color: white;
   transition: all .25s;
-  background-color: #007bff;
+  background-color: transparent;
   border-radius: 17px;
 }
